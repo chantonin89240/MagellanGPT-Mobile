@@ -1,4 +1,4 @@
-package com.p3g3.magellangpt.ui.theme
+package com.p3g3.magellangpt.ui.core.theme
 
 import android.app.Activity
 import android.os.Build

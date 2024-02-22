@@ -1,4 +1,4 @@
-package com.p3g3.magellangpt.ui.theme
+package com.p3g3.magellangpt.ui.core.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
