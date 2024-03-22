@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MagellanGPT"
+        android:name="com.p3g3.magellangpt.OpenApiApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.p3g3.magellangpt.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MagellanGPT">
@@ -23,6 +24,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.microsoft.identity.client.BrowserTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="com.p3g3.magellangpt"
+                    android:path="/n7w6wV2LIERLs8tjMt43e6gQxYA="
+                    android:scheme="msauth" />
+            </intent-filter>
+        </activity>
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>
