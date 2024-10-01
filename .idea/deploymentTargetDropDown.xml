@@ -2,22 +2,7 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="HomePreview">
-        <State />
-      </entry>
-      <entry key="LoginPreview">
-        <State />
-      </entry>
-      <entry key="MenuScreenPreview">
-        <State />
-      </entry>
-      <entry key="MessageCardPreview">
-        <State />
-      </entry>
       <entry key="app">
-        <State />
-      </entry>
-      <entry key="previewmaincontent">
         <State />
       </entry>
     </value>
